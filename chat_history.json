@@ -1,0 +1,101 @@
+{
+    "b93a7abf-9189-40b2-984f-7a5febaea544": {
+        "title": "Uploaded document: Amisha Shiv...",
+        "timestamp": "2026-04-14T20:42:19.672381",
+        "messages": [
+            {
+                "role": "user",
+                "text": "Uploaded document: Amisha Shivdas Kale(ML).pdf",
+                "timestamp": "2026-04-14T20:42:19.672405"
+            },
+            {
+                "role": "user",
+                "text": "tell me the skills",
+                "timestamp": "2026-04-14T20:42:32.990314"
+            },
+            {
+                "role": "model",
+                "text": "Amisha Shivdas Kale possesses a diverse set of skills, including both technical and soft skills.\n\n**Technical Skills:**\n\n*   **Programming:** Python, SQL, Java\n*   **Libraries & Tools:** NumPy, Pandas, Scikit-learn, Flask, Git, Excel, Power BI\n*   **Machine Learning:** Supervised & Unsupervised Learning, Model Training & Evaluation, Feature Engineering\n*   **Data Analysis & Visualization:** EDA (Exploratory Data Analysis), Data Preprocessing, Matplotlib, Seaborn\n*   **NLP & AI:** NLP Basics (Tokenization, N-grams, Embeddings), Generative AI (Gemini AI)\n*   **Data Engineering:** Data Pipelines, ETL Basics\n\n**Soft Skills:**\n\n*   Analytical Thinking\n*   Problem Solving\n*   Effective Communication\n*   Team Collaboration\n*   Adaptability",
+                "timestamp": "2026-04-14T20:42:36.824156"
+            },
+            {
+                "role": "user",
+                "text": "Uploaded document: 9047-Amisha Kale.pdf",
+                "timestamp": "2026-04-14T20:43:15.566440"
+            },
+            {
+                "role": "user",
+                "text": "what is there in the pdf",
+                "timestamp": "2026-04-14T20:43:21.751640"
+            },
+            {
+                "role": "model",
+                "text": "Error connecting to Gemini API: 403 PERMISSION_DENIED. {'error': {'code': 403, 'message': 'Your API key was reported as leaked. Please use another API key.', 'status': 'PERMISSION_DENIED'}}",
+                "timestamp": "2026-04-14T20:43:23.986138"
+            }
+        ]
+    },
+    "58cf02ce-b55e-4863-ac23-88c61a250b12": {
+        "title": "Uploaded document: 9047-Amisha...",
+        "timestamp": "2026-04-14T22:46:04.824042",
+        "messages": [
+            {
+                "role": "user",
+                "text": "Uploaded document: 9047-Amisha Kale.pdf",
+                "timestamp": "2026-04-14T22:46:04.824055"
+            },
+            {
+                "role": "user",
+                "text": "what is there in the pdf give me the summary",
+                "timestamp": "2026-04-14T22:46:22.832129"
+            },
+            {
+                "role": "model",
+                "text": "The PDF document is a project report titled \"Coffee Website,\" submitted by Amisha Kale (Roll No: 9047) for the Bachelor of Computer Science, Semester VI (2025-26), at Pillai College of Arts, Commerce & Science. The project aims to provide a complete online coffee shop experience, including user registration, login, browsing products, managing carts, placing orders, and processing payments. It also features an admin module for efficient management of products, orders, and analytics.\n\nThe website was designed, developed, and successfully deployed on AWS Elastic Beanstalk, with the database hosted on Amazon RDS (MySQL) for scalability, availability, and secure data storage. Key technologies and tools utilized include:\n*   **Frontend:** HTML, CSS, and JavaScript.\n*   **Backend:** Python and the Flask Framework.\n*   **Database:** MySQL and Amazon RDS (MySQL).\n*   **Cloud & Deployment:** AWS Elastic Beanstalk, AWS EC2, and AWS RDS.\n*   **Development & Management:** MySQL Workbench and VS Code.\n*   **Configuration & Server:** Gunicorn, environment variables for secure credential management, AWS CLI, and Elastic Beanstalk CLI.\n\nThe deployment process involved accessing AWS services, creating an Amazon RDS MySQL database, exporting the local database, connecting to RDS MySQL via MySQL Workbench, and finally, deploying the application.\n\nThe project's conclusion highlights its success in implementing a full-stack web application from local development to cloud deployment, enhancing understanding of Flask-based web development, database migration, and cloud deployment practices.\n\nA SWOT analysis is also included:\n*   **Strengths:** User-friendly interface, secure user authentication, cloud deployment for scalability, centralized database management, and real-time data handling.\n*   **Weaknesses:** Basic payment functionality without integration with real payment gateways, limited mobile optimization, lack of advanced security features, and dependency on internet connectivity.\n*   **Opportunities:** Integration with real payment gateways, development of a mobile app, addition of features like order tracking and reviews, performance optimization, and deployment with a custom domain and SSL.\n*   **Threats:** Security vulnerabilities (e.g., SQL injection), dependency on cloud service availability, competition from established platforms, and data security risks if credentials are mismanaged.",
+                "timestamp": "2026-04-14T22:46:35.277261"
+            }
+        ]
+    },
+    "fa963177-b5bb-4bb6-a187-1f2d7595ca9f": {
+        "title": "Uploaded document: Module 2.pd...",
+        "timestamp": "2026-04-14T23:23:15.949726",
+        "messages": [
+            {
+                "role": "user",
+                "text": "Uploaded document: Module 2.pdf",
+                "timestamp": "2026-04-14T23:23:15.949749"
+            },
+            {
+                "role": "user",
+                "text": "what is there in the pdf give me the summary",
+                "timestamp": "2026-04-14T23:23:41.369768"
+            },
+            {
+                "role": "model",
+                "text": "Module 2.pdf contains information on several machine learning concepts, primarily focusing on **Multiclass Classification** and **Polynomial Regression**, along with methods for assessing regression performance.\n\nThe key points covered include:\n\n*   **Multiclass Classification** refers to classification tasks with more than two class labels, such as face classification, plant species classification, and optical character recognition. Unlike binary classification, it doesn't distinguish between normal and abnormal outcomes; instead, examples are assigned to one of many known classes. The number of class labels can be very large, for instance, in face recognition systems or text translation models where each word in a sequence can be considered a multiclass classification problem with a vocabulary defining the number of possible classes. Multiclass classification tasks are often modeled using a Multinoulli probability distribution, which predicts the probability of an example belonging to each class label. Common algorithms for multiclass classification include k-Nearest Neighbors, Decision Trees, Naive Bayes, Random Forest, and Gradient Boosting. Binary classification algorithms can also be adapted for multiclass problems using strategies like \"One-vs-Rest\" (fitting one model for each class against all others) or \"One-vs-One\" (fitting one model for each pair of classes).\n*   **Polynomial Regression** is a regression algorithm that models the relationship between a dependent and independent variable as an nth-degree polynomial. It is considered a special case of Multiple Linear Regression where polynomial terms are added to increase accuracy, particularly when dealing with non-linear datasets. The document emphasizes the need for Polynomial Regression when a linear model would produce drastic outputs with high error rates on non-linear data.\n*   The document also touches upon **assessing the performance of Regression models**, mentioning error measures and overfitting. It defines **Mean Absolute Error (MAE)** as a simple metric that calculates the absolute difference between actual and predicted values. Additionally, it provides an example of calculating **True Positives (TP), True Negatives (TN), False Positives (FP), and False Negatives (FN)** for specific classes (Setosa and Versicolor) within the context of a confusion matrix, although the full matrix is not shown.",
+                "timestamp": "2026-04-14T23:23:51.538179"
+            }
+        ]
+    },
+    "e50f93e2-603c-4313-9ff8-eaab94b4e812": {
+        "title": "Uploaded document: Module 4.2....",
+        "timestamp": "2026-04-14T23:40:19.130845",
+        "messages": [
+            {
+                "role": "user",
+                "text": "Uploaded document: Module 4.2.pdf",
+                "timestamp": "2026-04-14T23:40:19.130870"
+            },
+            {
+                "role": "user",
+                "text": "tell me the summary of the pdf",
+                "timestamp": "2026-04-14T23:40:33.470717"
+            },
+            {
+                "role": "model",
+                "text": "The provided document, \"Module 4.2.pdf,\" focuses on Decision Trees and related concepts like Entropy, Information Gain, and Gini Index, along with Regression Trees.\n\nHere's a summary:\n\n*   **Decision Trees** are algorithms where the output is typically a \"yes\" or \"no\" decision, similar to human decision-making. They work by splitting data based on features to reach a pure sub-split, meaning a node where the outcome is consistently \"yes\" or \"no\".\n*   **Entropy** is a key metric used in decision trees to measure the impurity or randomness of a node. A higher entropy indicates lower purity and higher impurity. The formula for Entropy is provided as -p+log2(p+) - p-log2(p-), where p+ and p- are the probabilities of positive and negative classes, respectively. Decision trees aim to reduce entropy with each split.\n*   **Information Gain** measures the change in entropy after splitting a dataset based on an attribute. It quantifies how much information a feature provides about a class. Decision tree algorithms strive to maximize information gain, splitting nodes with the highest gain first. The formula is: Information Gain = Entropy(S) - [(Weighted Avg) * Entropy(each feature)].\n*   The **Gini Index** is another measure of impurity or purity, specifically used in the CART (Classification and Regression Tree) algorithm. It creates binary splits, and attributes with a low Gini index are preferred. The formula is Gini Index = 1 - \u2211Pj^2.\n*   **Advantages of Decision Trees** include their simplicity, ease of understanding (mimicking human decision processes), usefulness in solving decision-related problems, ability to consider all possible outcomes, and less requirement for data cleaning compared to other algorithms.\n*   **Disadvantages of Decision Trees** can involve complexity due to many layers, potential overfitting issues (which can be addressed with Random Forest), and increased computational complexity for problems with numerous class labels.\n*   **Regression Trees** are a type of decision tree used when the target variable is continuous (e.g., predicting product price based on constraints). They are built through a process called binary recursive partitioning.\n*   **Advantages of Regression Trees** include easier data visualization, the ability to prioritize specific decision nodes, enhanced efficiency and accuracy by filtering out undesired data at each step, and ease of preparation for presentations.",
+                "timestamp": "2026-04-14T23:40:43.308878"
+            }
+        ]
+    }
+}
